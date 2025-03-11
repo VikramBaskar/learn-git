@@ -16,14 +16,14 @@ newarray[1] ="second"
 newarray[2] ="three"
 newarray[3] ="four"
 
-console.log(newarray);
+console.log(newarray.length);
 console.log(newarray[1]);
 
 //dense & sparse array
 
 let denseArray =[1,2,3,4,5] //contigous Memory
-//               1004,1008,1012,1016,1020
-
+//           1004,1008,1012,1016,1020
+        //     |
 //formula =baseaddress +(index * size)
      //       1004 +(0*4) =1004
 

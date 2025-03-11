@@ -4,15 +4,25 @@ let userprofile ={
     haircolor : 'black',
     eyecolor : 'brown',
     eat :function(){
-       
+        console.log("Im gonna eat ice cream");
        return "vanilla ice cream"
-       console.log("Im gonna eat ice cream");
     }
 }
 
-console.log(userprofile.haircolor,userprofile.age);
-console.log(userprofile.userName);
+// console.log(userprofile.haircolor,userprofile.age);
+// console.log(userprofile.userName,userprofile.eyecolor);
 // console.log(userprofile.eat());
-let icecreamtype =userprofile.eat() 
-console.log(icecreamtype)
+// let icecreamtype =userprofile.eat() 
+// console.log(icecreamtype)
+
+// let vechile ={
+//     "vechiletype" : "Two- Wheeler",
+//     "price" : 400000,
+//     fueltype : "Petrol",
+//     "seater type" :["two","four","six"]
+// }
+
+// console.log(vechile.vechiletype,"fueltype :",vechile.fueltype);
+// console.log(vechile["fueltype"]);
+// console.log(vechile["seater type"][0]);
 
