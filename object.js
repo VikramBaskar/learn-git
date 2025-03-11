@@ -41,8 +41,13 @@ let age = 26
 let dynamicprop= "empid"
 let person2 = {
     Uname,age,
-    ["dynamicprop"] :'IFS234'
+    ["dynamicprop"] :'IFS234',
+person3:{
+    Uname,age
 }
-console.log(person2);
-console.log(person2.Uname,person2.age,person2['dynamicprop']);
+}
+// console.log(person2);
+// console.log(person2.Uname,person2.age,person2['dynamicprop']);
+console.log(person2.person3)
+console.log(person2.person3.age);
 
