@@ -34,31 +34,38 @@
     
 // }
 
-person3={
-    Hname:"Mohan",
-    eyes:"Black",
-    charcter:"Good",
-    Hobbies:["Instragram","clash-of-clanes","gossips"],
-    fun(){
-        console.log("He is a funney guy");
+// person3={
+//     Hname:"Mohan",
+//     eyes:"Black",
+//     charcter:"Good",
+//     Hobbies:["Instragram","clash-of-clanes","gossips"],
+//     fun(){
+//         console.log("He is a funney guy");
         
-    }
-}
+//     }
+// }
 
-for(let hai in person3){
-    //console.log(hai);
-    console.log(person3[hai]);
-    // console.log(person3.hai);
-}
+// for(let hai in person3){
+//     //console.log(hai);
+//     console.log(person3[hai]);
+//     // console.log(person3.hai);
+// }
 
-let arr =[11,12,13,14,15];
-for(let key in arr){
-    console.log(arr[key]);
+// let arr =[11,12,13,14,15];
+// for(let key in arr){
+//     console.log(arr[key]);
     
-}
+// }
 
-let str = "ECMA Script"
-for(let key in str){
-    console.log(str[key]+1);
+// let str = "ECMA Script"
+// for(let key in str){
+//     console.log(str[key]+1);
+    
+// }
+
+
+let str1 = "New Script"
+for(let key in str1){
+    console.log(str1[key]);
     
 }
